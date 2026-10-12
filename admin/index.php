@@ -132,13 +132,7 @@ if (isset($_SESSION['is_admin']) && $_SESSION['is_admin'] === true) {
 
         // *** เปลี่ยนตรงนี้เป็นค่า Firebase Config ของคุณ ***
         const firebaseConfig = {
-            apiKey: "AIzaSyD101MwGKbpea6a3uez8w3htG_icS8fPIc",
-            authDomain: "scso-rmutp.firebaseapp.com",
-            projectId: "scso-rmutp",
-            storageBucket: "scso-rmutp.firebasestorage.app",
-            messagingSenderId: "45793948830",
-            appId: "1:45793948830:web:e53b0fb3f816249c9bf78f",
-            measurementId: "G-NG5RJN211G"
+            ///////
             };
 
         const app = initializeApp(firebaseConfig);
